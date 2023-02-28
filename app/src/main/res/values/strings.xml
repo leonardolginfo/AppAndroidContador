@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AppContaPessoas</string>
     <string name="reset">ZERAR CONTAGEM</string>
+    <string name="peaple">Pessoas:</string>
 </resources>
