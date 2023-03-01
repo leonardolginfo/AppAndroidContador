@@ -4,7 +4,7 @@
 
 ## A função deste pequeno APP é simplesmente capturar quando o pessoa clica/toca em um dos botões (Homem ou Mulher) e contabiliza o total de toques na tela de forma incremental, quando a pessoa desejar resetar a contagem basta tocar no botão reset, simples :)
 
-## Neste pequeno APP você pode ver como:
+## Neste pequeno APP você pode ver o uso de:
 ### 1.Adicionar botões;
 ### 2.Trabalhar com Strings;
 ### 3.Constrains;
