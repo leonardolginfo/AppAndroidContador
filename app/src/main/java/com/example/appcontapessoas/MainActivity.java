@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         TextView txtNumberPeaple = (TextView) findViewById(R.id.textNumberpeaple);
         Button btnCountMen = (Button) findViewById(R.id.btnMasc);
         Button btnCountWomen = (Button) findViewById(R.id.btnFem);
+        Button btnResetCount = (Button) findViewById(R.id.btnReset);
 
         btnCountMen.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,5 +45,18 @@ public class MainActivity extends AppCompatActivity {
                 btnCountWomen.setText(Integer.toString(numberWomen));
             }
         });
+
+        btnResetCount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                numberMen = 0;
+                numberWomen = 0;
+                numberPeaple = 0;
+             txtNumberPeaple.setText(Integer.toString(numberPeaple));
+             btnCountMen.setText(Integer.toString(numberMen));
+             btnCountWomen.setText(Integer.toString(numberWomen));
+            }
+        });
+
     }
 }
