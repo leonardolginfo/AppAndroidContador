@@ -4,4 +4,5 @@
     <string name="peaple">Pessoas:</string>
     <string name="men">Homem</string>
     <string name="women">Mulher</string>
+    <string name="textInfo">Use os botões para contar a quantidade de pessoas</string>
 </resources>
