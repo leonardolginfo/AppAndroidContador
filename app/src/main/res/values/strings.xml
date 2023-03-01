@@ -2,4 +2,6 @@
     <string name="app_name">AppContaPessoas</string>
     <string name="reset">ZERAR CONTAGEM</string>
     <string name="peaple">Pessoas:</string>
+    <string name="men">Homem</string>
+    <string name="women">Mulher</string>
 </resources>
